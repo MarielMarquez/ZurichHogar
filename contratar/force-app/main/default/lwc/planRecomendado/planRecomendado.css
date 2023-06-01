@@ -1,0 +1,185 @@
+.container {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.1), 0 0 10px 0 rgba(0,0,0,.14);
+    color: #2167ae;
+    font-size: 13px;
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    line-height: 2.5;
+}
+
+.title {
+    color: #23366f;
+    font-size: 20px;
+}
+
+.name {
+    color: #29b4e7;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.number {
+    color: #29b4e7;
+    font-size: 28px;
+    line-height: 1.3;
+    font-family: ZurichSans-Light,Arial,sans-serif;
+    line-height: 0.5;
+    margin-top: 8px;
+}
+
+.clickAqui {
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 4;
+}
+
+.mensuales {
+    color: #29b4e7;
+    text-align: center;
+}   
+
+.contratar {
+    align-items: center;
+    background: none;
+    border: none;
+    background-color: #29b4e7;
+    color: white;
+    border-radius: 28px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    font-size: 14px;
+    height: 46px;
+    justify-content: center;
+    letter-spacing: .2px;
+    line-height: 1;
+    padding: 0 24px;
+    position: relative;
+    text-align: left;
+    transition: all .25s;
+    white-space: nowrap;
+    padding: 0 18px;
+}
+
+.containerBoton {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.containerTexto {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 35px 0px;
+}
+
+.containerTitulo {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 35px 0px;
+}
+
+.containerEscudo {
+    margin-left: 20px;
+    display: inherit;
+    align-items: center;
+}
+
+.imagen {
+    margin-right: 5px;
+    width: 33px;
+    height: 33px;
+}
+
+.escudo{
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.listaPrecio {
+    text-align: center;
+}
+
+/*Ventana Emergente*/
+
+.containerVentana{
+    background-color: white;
+    color: #2167ae;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.1), 0 0 10px 0 rgba(0,0,0,.14);
+    font-size: 12px;
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    text-align: left;
+    align-items: flex-start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /*display: none;*/
+    position: relative;
+    z-index: 1;
+    width: 50%;
+}
+
+.barraGris{
+    background-color: #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.botonCerrar {
+    align-items: center;
+    background: none;
+    border: none;
+    color: #a6a6a8;
+    font-size: 20px;
+}
+
+.botonCruz {
+    align-items: center;
+    background: none;
+    border: none;
+    color: #a6a6a8;
+    font-size: 20px;
+}
+
+.botonCruz:hover {
+    color: #5489be;
+}
+
+
+.check {
+    align-items: center;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 24px;
+    padding-left: 34px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.tituloVentana{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: #23366f;
+    font-family: ZurichSans-Light,Arial,sans-serif;
+    font-size: 20px;
+}
+
+.checkCuadrado {
+    cursor: pointer;
+}
+
+.parrafoVentana {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 50px;
+    font-size: 14.5px;
+}

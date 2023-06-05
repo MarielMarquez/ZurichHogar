@@ -1,0 +1,23 @@
+.title {
+    color: #2167ae;
+    cursor: pointer;
+    font-size: 11px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.container {
+    background-color: white;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    vertical-align: middle;
+}

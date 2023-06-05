@@ -1,0 +1,27 @@
+.btn {
+    
+    align-items: center;
+    background: none;
+    border: none;
+    background-color: #23366f;
+    border-radius: 28px;
+    color: white;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    font-size: 18px;
+    height: 56px;
+    justify-content: center;
+    letter-spacing: .2px;
+    line-height: 1;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    transition: all .25s;
+    white-space: nowrap;
+    margin-left: 35%;
+}
+
+.btn:hover {
+    background-color: #2167ae;
+}

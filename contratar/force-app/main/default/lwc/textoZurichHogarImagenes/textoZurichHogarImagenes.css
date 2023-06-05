@@ -1,0 +1,83 @@
+
+.titulo {
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    color: #2167ae;
+    font-size: 30px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.containerMain{
+    margin-left: 20px;
+    display: inherit;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+img {
+    width: 46px;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+p {
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    font-size: 20px;
+    color: #2167ae;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+    text-align: left;
+    display: flex;
+}
+
+.botonAsistencia {
+    
+    align-items: center;
+    background: none;
+    border: none;
+    background-color: #23366f;
+    border-radius: 28px;
+    color: white;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    font-family: ZurichSans-Regular,Arial,sans-serif;
+    font-size: 18px;
+    height: 56px;
+    justify-content: center;
+    letter-spacing: .2px;
+    line-height: 1;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    transition: all .25s;
+    white-space: nowrap;
+    
+}
+.botonCaja {
+    margin: 48px 15px;
+    margin-left: 35%;
+}
+.botonAsistencia:hover {
+    background-color: #2167ae;
+}
